@@ -1,4 +1,5 @@
 #![no_std]
+#![no_main]
 
 #[no_mangle]
 pub extern "system" fn driver_entry() -> u32 {
