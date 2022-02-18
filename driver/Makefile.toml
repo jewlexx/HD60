@@ -2,3 +2,17 @@
 script = '''
 cargo b %BUILD_FLAGS%
 '''
+
+[env.development]
+TARGET_PATH = "target/x86_64-pc-windows-msvc/debug"
+
+[env.production]
+TARGET_PATH = "target/x86_64-pc-windows-msvc/release"
+BUILD_RELEASE = "--release"
+
+[tasks.rename]
+ignore_errors = true
+script = '''
+cd %TARGET_PATH%
+rename driver.dll driver.sys
+'''
