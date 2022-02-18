@@ -1,0 +1,4 @@
+[tasks.build-driver]
+script = '''
+cargo b %BUILD_FLAGS%
+'''
