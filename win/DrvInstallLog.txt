@@ -1,0 +1,50 @@
+-
+--
+---
+DRV Install Log
+Date 01.03.2022 Time 6.27
+-----------------------------------------------------------------------
+Windows Build
+7601
+-------------
+Installing Game Capture HD60 S
+   Product ID(s) : USB\VID_0FD9&PID_004FUSB\VID_0FD9&PID_005EUSB\VID_0FD9&PID_0074USB\VID_0FD9&PID_0076
+   Desired driver: 1.1.0.194
+   Found driver  : 0 (0 = no driver found)
+  -> Install the driver because there was no driver installed for this device.
+-----------------------------------------------------------------------
+Remove USB\VID_0FD9&PID_004F from Device Manager
+Result : 0 (0 = Success / 1 = Requires reboot / 2 = Failure / 3 = Syntax error
+Remove USB\VID_0FD9&PID_005E from Device Manager
+Result : 0 (0 = Success / 1 = Requires reboot / 2 = Failure / 3 = Syntax error
+Remove USB\VID_0FD9&PID_0074 from Device Manager
+Result : 0 (0 = Success / 1 = Requires reboot / 2 = Failure / 3 = Syntax error
+Remove USB\VID_0FD9&PID_0076 from Device Manager
+Result : 0 (0 = Success / 1 = Requires reboot / 2 = Failure / 3 = Syntax error
+-----------------------------------------------------------------------
+Start devcon.exe rescan
+-
+--
+---
+DRV Install Log
+Date 01.03.2022 Time 6.28
+-----------------------------------------------------------------------
+Windows Build
+7601
+-------------
+Installing Game Capture HD60 S
+   Product ID(s) : USB\VID_0FD9&PID_004FUSB\VID_0FD9&PID_005EUSB\VID_0FD9&PID_0074USB\VID_0FD9&PID_0076
+   Desired driver: 1.1.0.194
+   Found driver  : 0 (0 = no driver found)
+  -> Install the driver because there was no driver installed for this device.
+-----------------------------------------------------------------------
+Remove USB\VID_0FD9&PID_004F from Device Manager
+Result : 0 (0 = Success / 1 = Requires reboot / 2 = Failure / 3 = Syntax error
+Remove USB\VID_0FD9&PID_005E from Device Manager
+Result : 0 (0 = Success / 1 = Requires reboot / 2 = Failure / 3 = Syntax error
+Remove USB\VID_0FD9&PID_0074 from Device Manager
+Result : 0 (0 = Success / 1 = Requires reboot / 2 = Failure / 3 = Syntax error
+Remove USB\VID_0FD9&PID_0076 from Device Manager
+Result : 0 (0 = Success / 1 = Requires reboot / 2 = Failure / 3 = Syntax error
+-----------------------------------------------------------------------
+Start devcon.exe rescan
