@@ -1,7 +1,18 @@
-[workspace]
-members = [
-    "driver"
-]
+[package]
+name = "hd60s"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.126"
+
+[build-dependencies]
+thiserror = "1.0"
+winreg = "0.10"
 
 [profile.dev]
 panic = "abort"
